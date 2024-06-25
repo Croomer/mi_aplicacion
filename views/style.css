@@ -30,6 +30,16 @@ hr{
     align-items: center;
 }
 
+.form-container .logo-container{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.form-container .logo-container > img {
+    width: 80px;
+}
+
 .form-container .login-container {
     width: 500px;
     margin: 0 auto;
