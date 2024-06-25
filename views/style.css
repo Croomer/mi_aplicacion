@@ -1,0 +1,191 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.form-container{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.form-container .login-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-container .login-container > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.form-container .login-container > p,
+.form-container .login-container > span {
+    text-align: center;
+    color: #555;
+}
+
+.form-container .login-container label {
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.form-container .login-container input.login-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.form-container .login-container input.login-input:focus {
+    outline: solid 1px #0099ff;
+}
+
+.form-container .login-container .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container a{
+    color: #555;
+    text-decoration: none;
+}
+
+.form-container a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.btn {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn.btn-login{
+    background-color: chocolate;
+}
+
+.btn.btn-login:hover{
+    background-color: #222;
+    color: white;
+}
+
+.btn.btn-google{
+    background-color: #DB4437;
+    color: white;
+}
+
+.btn.btn-apple{
+    background-color: black;
+    color: white;
+}
+.btn.btn-facebook{
+    background-color: #0165E1;
+    color: white;
+}
+
+.btn.btn-google:hover{
+    background-color: #db6b60;
+    color: white;
+}
+
+.btn.btn-apple:hover{
+    background-color: #a3aaae;
+    color: white;
+}
+.btn.btn-facebook:hover{
+    background-color: #17a9fd;
+    color: white;
+}
+
+.form-container .login-container .providers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-container .welcome-screen-container{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.form-container .welcome-screen-container .image-row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-container .welcome-screen-container .image-welcome{
+    height: 100%;
+    width: 125%;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .form-container{
+        width: 95%;
+    }
+    .form-container .login-container {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .form-container .welcome-screen-container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .form-container{
+        width: 95%;
+    }
+    .form-container .login-container {
+        width: 275px;
+        margin: 0 auto;
+    }
+    .form-container .welcome-screen-container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .form-container{
+        width: 80%;
+        height: 70%;
+    }
+    .form-container .login-container {
+        width: 275px;
+        margin: 0 auto;
+    }
+    .form-container .welcome-screen-container{
+        width: 0%;
+    }
+}
