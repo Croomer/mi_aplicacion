@@ -130,25 +130,13 @@ body{
     background-color: black;
     height: 100%;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    max-width: 50%;
+    display: block;
     overflow: hidden;
 }
 
-.form-container .welcome-screen-container .image-row{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 .form-container .welcome-screen-container .image-welcome{
-    height: 100%;
-    width: 125%;
+    height: auto;
 }
-
 
 @media screen and (max-width: 1440px) {
     .form-container{
