@@ -23,7 +23,7 @@
                 </p>
                 <p>
                     <label for="password">Contraseña</label>
-                    <input class="login-input" type="text" name="password" id="password" />
+                    <input class="login-input" type="password" name="password" id="password" />
                 </p>
 
                 <div class="options">
