@@ -181,7 +181,7 @@ hr{
 @media screen and (max-width: 719px) {
     .form-container{
         width: 70%;
-        height: 70%;
+        height: 75%;
     }
     .form-container .login-container {
         width: 275px;
