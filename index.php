@@ -25,7 +25,13 @@
                     <label for="password">Contraseña</label>
                     <input class="login-input" type="password" name="password" id="password" />
                 </p>
-
+                <?php
+                    if (isset($_GET['error']) && $_GET['error'] === 'credenciales_invalidas') {
+                        echo '<div id="mensaje-error">';
+                        echo '<span>Contraseña o usuario inválidos</span>';
+                        echo '</div>';
+                    }
+                ?>
                 <div class="options">
                     <div>
                         Recordar
@@ -38,12 +44,6 @@
                 <p>
                     <input type="submit" class="btn btn-login" value="Iniciar"/>
                 </p>
-                <hr/>
-                <div class="providers">
-                    <button class="btn btn-google">Continuar con Google</button>
-                    <button class="btn btn-apple">Continuar con apple</button>
-                    <button class="btn btn-facebook">Continuar con Facebook</button>
-                </div>
             </form>
         </div>
         <div class="welcome-screen-container">

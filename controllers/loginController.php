@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = ""; // Sin contraseña
-$database = "users";
+$database = "momentum_db";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $database);
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 // Función para verificar credenciales
 function verificarCredenciales($conn, $usuario, $contrasena) {
     // Preparar una consulta SQL para evitar inyecciones SQL
-    $stmt = $conn->prepare("SELECT * FROM sesiones WHERE user_name = ? AND user_password = ?");
+    $stmt = $conn->prepare("SELECT * FROM users WHERE username = ? AND userpassword = ?");
     $stmt->bind_param("ss", $usuario, $contrasena); // "ss" indica que se están pasando dos cadenas (strings)
 
     // Ejecutar la consulta
@@ -40,24 +40,11 @@ $contrasena = $_POST['password'];
 if (verificarCredenciales($conn, $usuario, $contrasena)) {
     echo "Credenciales válidas. Bienvenido, " . $usuario;
 } else {
-    echo "Credenciales inválidas. Inténtalo de nuevo.";
+    header("Location: ../index.php?error=credenciales_invalidas");
+    exit();
 }
 
 
 // Cerrar conexión
 $conn->close();
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset-"UTF-8>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-
-
-</body>
-</html>
