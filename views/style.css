@@ -157,11 +157,11 @@ hr{
         width: 95%;
     }
     .form-container .login-container {
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
     }
     .form-container .welcome-screen-container{
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -174,13 +174,13 @@ hr{
         margin: 0 auto;
     }
     .form-container .welcome-screen-container{
-        width: 50%;
+        width: 55%;
     }
 }
 
 @media screen and (max-width: 719px) {
     .form-container{
-        width: 80%;
+        width: 70%;
         height: 70%;
     }
     .form-container .login-container {
@@ -189,5 +189,8 @@ hr{
     }
     .form-container .welcome-screen-container{
         width: 0%;
+    }
+    body {
+        background-image: url("../assets/image/paisaje.jfif");
     }
 }
