@@ -6,7 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: chocolate;
+    background-color: #E88D67;
 }
 
 hr{
@@ -17,10 +17,11 @@ hr{
     margin-inline-end: auto;
     unicode-bidi: isolate;
     overflow: hidden;
+    color: #555;
 }
 
 .form-container{
-    background-color: white;
+    background-color: #F3F7EC;
     width: 80%;
     border-radius: 10px;
     overflow: hidden;
@@ -56,12 +57,14 @@ hr{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border: solid 1px #ccc;
+    border: solid 1px #555;
     border-radius: 5px;
+    background-color: #F3F7EC;
 }
 
 .form-container .login-container input.login-input:focus {
-    outline: solid 1px #0099ff;
+    outline: solid 2px #E88D67;
+    border: none;
 }
 
 .form-container .login-container .options {
@@ -76,7 +79,7 @@ hr{
 }
 
 .form-container a:hover{
-    color: chocolate;
+    color: #E88D67;
     text-decoration: underline;
 }
 
@@ -92,12 +95,12 @@ hr{
 }
 
 .btn.btn-login{
-    background-color: chocolate;
+    background-color: #E88D67;
     color: white;
 }
 
 .btn.btn-login:hover{
-    background-color: #222;
+    background-color: #17404d;
     color: white;
 }
 
