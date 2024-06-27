@@ -38,7 +38,9 @@ $contrasena = $_POST['password'];
 
 // Verificar las credenciales
 if (verificarCredenciales($conn, $usuario, $contrasena)) {
-    echo "Credenciales válidas. Bienvenido, " . $usuario;
+    //echo "Credenciales válidas. Bienvenido, " . $usuario;
+    header("Location: ../views/home.php");
+    exit();
 } else {
     header("Location: ../index.php?error=credenciales_invalidas");
     exit();

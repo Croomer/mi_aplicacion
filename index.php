@@ -34,11 +34,7 @@
                 ?>
                 <div class="options">
                     <div>
-                        Recordar
-                        <input type="checkbox" name="rememberme" id="rememberme" />
-                    </div>
-                    <div>
-                        <a href="#">Olvidé contraseña</a>
+                        <a href="./views/formulario.php">Olvidé contraseña</a>
                     </div>
                 </div>
                 <p>

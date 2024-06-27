@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/home.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/image/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../assets/image/favicon-16x16.png">
     <title>Home - Momentum</title>
 </head>
 <body>
@@ -14,17 +14,17 @@
 
             </div>
             <div class="user">
-                <img src="./profile1.jpg" width="100" alt=""/>
+                <img src="../assets/image/profile1.jpg" width="100" alt=""/>
                 <div class="name">Croomer</div>
             </div>
         </header>
 
         <div class="links">
-            <a href="#">
+            <a href="./formulario.php">
                 <div class="icon">
                     <iconify-icon icon="streamline:customer-support-1" height="32"></iconify-icon>
                 </div>
-                <div class="title">Remote assistance</div>
+                <div class="title">Soporte</div>
             </a>
 
             <a href="#">
