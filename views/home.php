@@ -27,32 +27,11 @@
                 <div class="title">Soporte</div>
             </a>
 
-            <a href="#">
+            <a href="../index.php">
                 <div class="icon">
-                    <iconify-icon icon="streamline:blank-calendar" height="32"></iconify-icon>
+                <iconify-icon icon="tabler:logout-2" height="32"></iconify-icon>
                 </div>
-                <div class="title">Calendar</div>
-            </a>
-
-            <a href="#">
-                <div class="icon">
-                    <iconify-icon icon="streamline:page-setting" height="32"></iconify-icon>
-                </div>
-                <div class="title">Settings</div>
-            </a>
-
-            <a href="#">
-                <div class="icon">
-                    <iconify-icon icon="streamline:money-graph-analytics-business-product-graph-data-chart-analysis" height="32"></iconify-icon>
-                </div>
-                <div class="title">Analytics</div>
-            </a>
-
-            <a href="#">
-                <div class="icon">
-                    <iconify-icon icon="streamline:camera-1" height="32"></iconify-icon>
-                </div>
-                <div class="title">Photos</div>
+                <div class="title">Cerrar Sesión</div>
             </a>
         </div>
     </nav>
@@ -70,246 +49,46 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
-                <tr>
-                    <td class="inicio">Crlos</td>
-                    <td>Venezela</td>
-                    <td>Caracas</td>
-                    <td>Crlos</td>
-                    <td>Venezela</td>
-                    <td class="fin">1000</td>
-                </tr>
+            <?php
+                // Configuración de la base de datos
+                $servername = "localhost";
+                $username = "root";
+                $password = ""; // Sin contraseña
+                $database = "momentum_db";
+
+                // Crear la conexión
+                $conn = new mysqli($servername, $username, $password, $database);
+
+                // Verificar la conexión
+                if ($conn->connect_error) {
+                    die("Conexión fallida: " . $conn->connect_error);
+                }
+
+                // Obtener el id de usuario desde la solicitud GET
+                $usuario_id = isset($_GET['usuario_id']) ? $_GET['usuario_id'] : 1; // Valor por defecto
+
+                // Consulta SQL para obtener las entradas del usuario específico
+                $sql = "SELECT * FROM users_financial WHERE user_id = ?";
+                $stmt = $conn->prepare($sql);
+                $stmt->bind_param("i", $usuario_id);
+                $stmt->execute();
+                $result = $stmt->get_result();
+
+                // Crear las filas de la tabla HTML
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()) {
+                        echo "<tr>";
+                        foreach($row as $cell) {
+                            echo "<td>" . htmlspecialchars($cell) . "</td>";
+                        }
+                        echo "</tr>";
+                    }
+                } else {
+                    echo "<tr><td colspan='6'>0 resultados</td></tr>";
+                }
+
+                $conn->close();
+                ?>
             </tbody>
             <tfoot>
                 <tr>
@@ -324,9 +103,9 @@
         </table>
     </div>
     <div class="buttoms">
-        <button class="add-buttom"><iconify-icon icon="streamline:add-circle-solid" height="32"></iconify-icon></button>
-        <button class="add-buttom"><iconify-icon icon="streamline:pencil-solid" height="32"></iconify-icon></button>
-        <button class="add-buttom"><iconify-icon icon="streamline:subtract-circle-solid" height="32"></iconify-icon></button>
+        <button class="add-buttom"><iconify-icon icon="tabler:plus" height="32"></iconify-icon></button>
+        <button class="add-buttom"><iconify-icon icon="tabler:edit-circle" height="32"></iconify-icon></button>
+        <button class="add-buttom"><iconify-icon icon="tabler:trash" height="32"></iconify-icon></button>
     </div>
 </body>
 </html>

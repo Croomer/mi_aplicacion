@@ -32,11 +32,13 @@
                         echo '</div>';
                     }
                 ?>
-                <div class="options">
+                <?php
+                /*<div class="options">
                     <div>
                         <a href="./views/formulario.php">Olvidé contraseña</a>
                     </div>
-                </div>
+                </div>*/
+                ?>
                 <p>
                     <input type="submit" class="btn btn-login" value="Iniciar"/>
                 </p>
