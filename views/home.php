@@ -89,11 +89,27 @@
                 $stmt->bind_param("i", $usuario_id);
                 $stmt->execute();
                 $result = $stmt->get_result();
+                $total_monto_bs = 0;
+                $total_monto_usd = 0;
+                $monto_actual_bs = 0;
+                $monto_actual_usa = 0;
 
                 // Crear las filas de la tabla HTML
                 if ($result->num_rows > 0) {
                     while($row = $result->fetch_assoc()) {
                         echo "<tr>";
+
+                        $monto_actual_bs = $row['bs_value'];
+                        $monto_actual_usa = $row['usa_value'];
+
+                        if (!$row['type']) {
+                            $monto_actual_bs = $monto_actual_bs * -1;
+                            $monto_actual_usa = $monto_actual_usa *-1;
+                        }
+
+                        $total_monto_bs += $monto_actual_bs;
+                        $total_monto_usd += $monto_actual_usa;
+
                         foreach($row as $cell) {
                             echo "<td>" . htmlspecialchars($cell) . "</td>";
                         }
@@ -108,12 +124,14 @@
             </tbody>
             <tfoot>
                 <tr>
+                    <th>Total:</th>
                     <th></th>
                     <th></th>
                     <th></th>
                     <th></th>
                     <th></th>
-                    <th>1000</th>
+                    <th><?php echo number_format($total_monto_bs, 2); ?></th>
+                    <th><?php echo number_format($total_monto_usd, 2); ?></th>
                 </tr>
             </tfoot>
         </table>
