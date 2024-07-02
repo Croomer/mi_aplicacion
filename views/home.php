@@ -15,7 +15,12 @@
             </div>
             <div class="user">
                 <img src="../assets/image/profile1.jpg" width="100" alt=""/>
-                <div class="name">Croomer</div>
+                <div class="name">
+                    <?php
+                    $usuario = $_GET['usuario'];
+                    echo "<span>$usuario</span>";
+                    ?>
+                </div>
             </div>
         </header>
 
@@ -40,12 +45,14 @@
         <table>
             <thead>
                 <tr>
-                    <th class="inicio">Titulo 1</th>
-                    <th>Titulo 2</th>
-                    <th>Titulo 3</th>
-                    <th>Titulo 4</th>
-                    <th>Titulo 5</th>
-                    <th class="fin">Titulo 6</th>
+                    <th class="inicio">Referencia</th>
+                    <th>Id</th>
+                    <th>Tipo</th>
+                    <th>Categoría</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                    <th>Monto (Bs)</th>
+                    <th class="fin">Monto ($)</th>
                 </tr>
             </thead>
             <tbody>

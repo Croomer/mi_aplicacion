@@ -47,7 +47,7 @@ if (verificarCredenciales($conn, $usuario, $contrasena)) {
      $stmt->close();
  
      // Redirigir a home.php pasando el user_id como parámetro
-     header("Location: ../views/home.php?user_id=" . urlencode($user_id));
+     header("Location: ../views/home.php?user_id=" . urlencode($user_id) . "&usuario=" . urlencode($usuario));
      exit();
 } else {
     header("Location: ../index.php?error=credenciales_invalidas");
