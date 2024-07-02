@@ -65,7 +65,16 @@
                 }
 
                 // Obtener el id de usuario desde la solicitud GET
-                $usuario_id = isset($_GET['usuario_id']) ? $_GET['usuario_id'] : 1; // Valor por defecto
+
+                // Verificar si user_id está presente en la URL
+                if (isset($_GET['user_id'])) {
+                    $usuario_id = $_GET['user_id'];
+                } else {
+                // Manejar caso donde user_id no está presente
+                    echo "Error: No se encontró ID de usuario.";
+                }
+
+                //$usuario_id = isset($_GET['usuario_id']) ? $_GET['usuario_id'] : 1; // Valor por defecto
 
                 // Consulta SQL para obtener las entradas del usuario específico
                 $sql = "SELECT * FROM users_financial WHERE user_id = ?";

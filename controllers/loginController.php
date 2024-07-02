@@ -38,9 +38,17 @@ $contrasena = $_POST['password'];
 
 // Verificar las credenciales
 if (verificarCredenciales($conn, $usuario, $contrasena)) {
-    //echo "Credenciales válidas. Bienvenido, " . $usuario;
-    header("Location: ../views/home.php");
-    exit();
+     // Obtener el user_id del usuario autenticado
+     $stmt = $conn->prepare("SELECT id FROM users WHERE username = ?");
+     $stmt->bind_param("s", $usuario);
+     $stmt->execute();
+     $stmt->bind_result($user_id);
+     $stmt->fetch();
+     $stmt->close();
+ 
+     // Redirigir a home.php pasando el user_id como parámetro
+     header("Location: ../views/home.php?user_id=" . urlencode($user_id));
+     exit();
 } else {
     header("Location: ../index.php?error=credenciales_invalidas");
     exit();
